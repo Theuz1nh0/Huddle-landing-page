@@ -6,20 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <!-- bootstrap -->
   <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
 
+  <!-- styles -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- other -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- text fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
 </head>
 
 <body>
-  <div>
-    <header>
+  <div class="container">
+    <header class="row p-3 px-4 align-items-center">
+      <div class="col-9 p-0">
+        <h1>
+          <img src="./images/logo.svg" alt="logo hunddle"  width="100px">
+        </h1>
+      </div>
+      <div class="col-3 p-0">
+        <div class="d-flex justify-content-end align-items-center bt-try-if-free">
+          <a class="btn btn-outline-pink rounded-5 py-1 px-3 text-capitalize" href="#">Try it free</a>
+        </div>
+      </div>
     </header>
 
-    <main>
+    <main class="d-none">
       Build The Community Your Fans Will Love
 
       Huddle re-imagines the way we build communities. You have a voice, but so does
@@ -49,7 +71,7 @@
       Get Started For Free
     </main>
 
-    <footer>
+    <footer class="d-none">
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
       vestibulum a, ultrices quis sem.
