@@ -30,13 +30,49 @@ body {
     font-size: .9em;
 }
 
+.fs-8 {
+    font-size: 3.5em;
+}
+
+.fs-9 {
+    font-size: 3.8em;
+}
+
+.fs-10 {
+    font-size: .8em;
+}
+
 .px-4-2 {
     padding-left: 2.5em;
     padding-right: 2.5em;
 }
 
+.start-0-1 {
+    left: -50% !important;
+}
+
+.w-150 {
+    width: 150%;
+}
+
 .bg-section-top-mobile-1 {
     background: url(../images/bg-section-top-mobile-1.svg) repeat-x bottom;
+}
+
+.bg-section-bottom-mobile-1 {
+    background: white url(../images/bg-section-bottom-mobile-1.svg) repeat-x bottom;
+}
+
+.bg-section-top-mobile-2 {
+    background: white url(../images/bg-section-top-mobile-2.svg) repeat-x top;
+}
+
+.bg-section-bottom-mobile-2 {
+    background: white url(../images/bg-section-bottom-mobile-2.svg) repeat-x top;
+}
+
+.bg-pale-blue {
+    background: hsl(207, 100%, 98%);
 }
 
 
@@ -81,6 +117,21 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 576px) {
+    .fs-sm-8 {
+        font-size: 3.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    .fs-md-1 {
+        font-size: 2.3em;
+    }
+    .fs-md-6 {
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 1400px) {
