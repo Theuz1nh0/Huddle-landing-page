@@ -101,6 +101,10 @@ body {
     color: hsl(207, 100%, 98%);
 }
 
+.w-logo-top {
+    width: 100px;
+}
+
 
 .btn-outline-pink {
     --bs-btn-color: hsl(322, 100%, 66%);
@@ -190,16 +194,67 @@ body {
         width: 200px;
     }
 
+    .fs-md-3 {
+        font-size: calc(1.3rem + 0.6vw) !important;
+      }
+
 }
 
 @media (min-width: 992px) {
-    .fs-md-1 {
+    .fs-lg-1 {
         font-size: 2.3em;
     }
 
     .fs-md-6 {
         font-size: 1em;
     }
+
+    .w-lg-logo-top {
+        width: 150px;
+    }
+
+    .mb-lg-6 {
+        margin-bottom: 7em !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fs-xl-1 {
+        font-size: 2.8em;
+    }
+
+    .fs-xl-5 {
+        font-size: 1.1em;
+    }
+
+    .w-xl-logo-top {
+        width: 200px;
+    }
+
+    .px-xl-6 {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    .fs-xl-8 {
+        font-size: 4em;
+    }
+
+    .mt-xl-6 {
+        margin-top: 6em !important;
+    }
+
+    .mb-xl-6 {
+        margin-bottom: 7em !important;
+    }
+
+    .mb-xl-7 {
+        margin-bottom: 5em !important;
+    }
+
+    .fs-xl-2 {
+        font-size: calc(1.325rem + 0.9vw) !important;
+      }
 }
 
 @media (min-width: 1400px) {
