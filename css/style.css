@@ -105,6 +105,13 @@ body {
     width: 100px;
 }
 
+.w-icon-communities {
+    width: 30px;
+}
+
+.w-icon-messages {
+    width: 25px;
+}
 
 .btn-outline-pink {
     --bs-btn-color: hsl(322, 100%, 66%);
@@ -258,7 +265,68 @@ body {
 }
 
 @media (min-width: 1400px) {
-    .offset-xxl-1-smaller {
-        margin-left: 3.5%;
+    .fs-xxl-1 {
+        font-size: 3em;
+    }
+
+    .fs-xxl-2 {
+        font-size: 2.75em !important;
+    } 
+
+    .fs-xxl-3 {
+        font-size: 2.5em !important;
+    } 
+
+    .w-xxl-logo-top {
+        width: 240px;
+    }
+
+    .fs-xxl-6 {
+        font-size: 1em !important;
+    }
+
+    .fs-xxl-5 {
+        font-size: 1.2em !important;
+    }
+
+    .px-xl-6 {
+        padding-left: 5.5em;
+        padding-right: 5.5em;
+    }
+
+    .rounded-xxl-5 {
+        border-radius: 6rem !important;
+    }
+
+    .fs-xxl-8 {
+        font-size: 5em;
+    }
+
+    .w-xxl-icon-communities, .w-xxl-icon-messages {
+        width: 40px;
+    }
+
+    .mb-xxl-7 {
+        margin-bottom: 8em !important;
+    }
+
+    .mt-xxl-6 {
+        margin-top: 10em !important;
+    }
+
+    .mb-xxl-6 {
+        margin-bottom: 10em !important;
+    }
+
+    .h-xxl-50px {
+        height: 50px;
+    }
+
+    .lh-xxl-lg {
+        line-height: 2em;
+    }
+
+    .pe-xxl-6 {
+        padding-right: 14em;
     }
 }
