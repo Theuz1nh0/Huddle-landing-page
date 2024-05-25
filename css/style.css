@@ -133,7 +133,7 @@ body {
 .btn-pink {
     --bs-btn-color: #fff;
     --bs-btn-bg: hsl(322, 100%, 66%);
-    --bs-btn-border-color: ;
+    --bs-btn-border-color: none;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: hsl(322, 100%, 70%);
     --bs-btn-hover-border-color: hsl(322, 100%, 60%);
@@ -145,6 +145,32 @@ body {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: hsl(322, 100%, 66%);
     --bs-btn-disabled-border-color: hsl(322, 100%, 66%);
+}
+
+.btn-pink:hover {
+    color: white;
+    background-color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+}
+
+.btn-outline-pink:hover {
+    color: hsl(321, 100%, 78%);
+    background-color: white;
+    border-color: hsl(321, 100%, 78%);
+    box-shadow: 0 0 5px hsl(321, 100%, 78%);
+}
+
+.box-shadow-1 {
+    box-shadow: 0 10px 10px rgb(205, 205, 205);
+}
+
+.was-validated .form-control:invalid,
+.was-validated .form-control:valid{
+    background-image: none;
+}
+
+.svg-hover:hover {
+    fill: aqua;
 }
 
 .attribution {
@@ -170,7 +196,7 @@ body {
         height: 165px;
         position: relative;
     }
-    
+
     .bg-sm-section-top-desktop-1::after {
         content: "";
         background: hsl(207, 100%, 98%);
@@ -308,7 +334,7 @@ body {
 
     .fs-md-3 {
         font-size: calc(1.3rem + 0.6vw) !important;
-      }
+    }
 
 }
 
@@ -366,21 +392,25 @@ body {
 
     .fs-xl-2 {
         font-size: calc(1.325rem + 0.9vw) !important;
-      }
+    }
 }
 
 @media (min-width: 1400px) {
+    .position-xxl-absolute {
+        position: absolute;
+    }
+
     .fs-xxl-1 {
         font-size: 3em;
     }
 
     .fs-xxl-2 {
         font-size: 2.75em !important;
-    } 
+    }
 
     .fs-xxl-3 {
         font-size: 2.5em !important;
-    } 
+    }
 
     .w-xxl-logo-top {
         width: 240px;
@@ -407,7 +437,8 @@ body {
         font-size: 5em;
     }
 
-    .w-xxl-icon-communities, .w-xxl-icon-messages {
+    .w-xxl-icon-communities,
+    .w-xxl-icon-messages {
         width: 40px;
     }
 
