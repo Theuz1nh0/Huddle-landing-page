@@ -67,9 +67,44 @@ body {
     background: url(../images/logo.svg) no-repeat;
 }
 
+.bg-section-top-mobile-1,
+.bg-section-bottom-mobile-1,
+.bg-section-top-mobile-2,
+.bg-section-bottom-mobile-2,
+.bg-footer-top-mobile {
+    position: relative;
+}
+
+.bg-section-top-mobile-1::after,
+.bg-section-top-mobile-1::before,
+.bg-section-bottom-mobile-1::after,
+.bg-section-bottom-mobile-1::before,
+.bg-section-top-mobile-2::after,
+.bg-section-top-mobile-2::before,
+.bg-section-bottom-mobile-2::after,
+.bg-section-bottom-mobile-2::before,
+.bg-footer-top-mobile::after,
+.bg-footer-top-mobile::before {
+    content: "";
+    background: hsl(207, 100%, 98%);
+    width: calc((100vw - 375px) / 2);
+    height: 120px;
+    position: absolute;
+}
+
+
 .bg-section-top-mobile-1 {
     background: white url(../images/bg-section-top-mobile-1.svg) no-repeat bottom;
     height: 112px;
+}
+
+.bg-section-top-mobile-1::after {
+    right: 0;
+}
+
+.bg-section-top-mobile-1::before {
+    left: 0;
+    top: 42px;
 }
 
 .bg-section-bottom-mobile-1 {
@@ -77,9 +112,29 @@ body {
     height: 52px;
 }
 
+.bg-section-bottom-mobile-1::after {
+    right: 0;
+    bottom: 5px;
+}
+
+.bg-section-bottom-mobile-1::before {
+    left: 0;
+    bottom: 33px;
+}
+
 .bg-section-top-mobile-2 {
     background: white url(../images/bg-section-top-mobile-2.svg) no-repeat top;
     height: 103px;
+}
+
+.bg-section-top-mobile-2::after {
+    right: 0;
+    top: 97px;
+}
+
+.bg-section-top-mobile-2::before {
+    left: 0;
+    top: 40px;
 }
 
 .bg-section-bottom-mobile-2 {
@@ -87,9 +142,30 @@ body {
     height: 101px;
 }
 
+.bg-section-bottom-mobile-2::after {
+    right: 0;
+    bottom: 0;
+}
+
+.bg-section-bottom-mobile-2::before {
+    left: 0;
+    bottom: 62px;
+}
+
 .bg-footer-top-mobile {
     background: white url(../images/bg-footer-top-mobile.svg) no-repeat top;
     height: 53px;
+}
+
+.bg-footer-top-mobile::after {
+    background: hsl(192, 100%, 9%);
+    right: 0;
+}
+
+.bg-footer-top-mobile::before {
+    background: hsl(192, 100%, 9%);
+    left: 0;
+    top: 21px;
 }
 
 .bg-dark-cyan {

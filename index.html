@@ -129,13 +129,13 @@
           <!-- section background top -->
         </div>
 
-        <div class="col col-sm-8 col-md-6 col-lg-5 order-2 z-3 order-md-3"> <!-- image -->
+        <div class="col z-1 col-sm-8 col-md-6 col-lg-5 order-2 z-3 order-md-3"> <!-- image -->
           <div class="p-5 pe-lg-0">
             <img class="img-fluid" src="./images/illustration-grow-together.svg" alt="illustration grow together">
           </div>
         </div> <!-- /end image -->
 
-        <div class="col col-sm-8 col-md-6 col-lg-5 order-3 order-md-2 text-md-start"> <!-- info -->
+        <div class="col z-1 col-sm-8 col-md-6 col-lg-5 order-3 order-md-2 text-md-start"> <!-- info -->
           <div class="px-4 pt-4 pb-3 pe-md-0 ps-md-5 pb-sm-0 ps-lg-0">
             <h2 class="h5 fw-bold fs-md-3 fs-xl-2 fs-xxl-2">
               Grow Together
@@ -155,14 +155,14 @@
       <section class="row row-cols-1 align-items-center justify-content-center
                text-center text-dark-cyan font-family-poppins pt-5 mb-4"> <!-- section -->
 
-        <div class="col col-sm-8 col-md-6 col-lg-5 z-3 col-xxl-6">
+        <div class="col z-1 col-sm-8 col-md-6 col-lg-5 z-3 col-xxl-6">
           <div class="p-5 ps-lg-0 ps-xxl-5"> <!-- image -->
             <img class="img-fluid ps-xxl-5" src="./images/illustration-flowing-conversation.svg"
               alt="illustration flowing conversation">
           </div>
         </div> <!-- /end image -->
 
-        <div class="col col-sm-8 col-md-6 col-lg-5 col-xxl-6 text-md-start pe-xl-0 pe-xxl-5"> <!-- info -->
+        <div class="col z-1 col-sm-8 col-md-6 col-lg-5 col-xxl-6 text-md-start pe-xl-0 pe-xxl-5"> <!-- info -->
           <div class="px-3 pt-4 pb-3 px-md-0 pe-md-5 ps-lg-5 pe-lg-0">
             <h2 class="h5 fw-bold fs-md-3 fs-xl-2 fs-xxl-2">
               Flowing Conversations
@@ -187,13 +187,13 @@
           <!-- section background top -->
         </div>
 
-        <div class="col col-sm-8 col-md-6 col-lg-5 z-3 order-2 order-md-3"> <!-- image -->
+        <div class="col z-1 col-sm-8 col-md-6 col-lg-5 z-3 order-2 order-md-3"> <!-- image -->
           <div class="p-5 pt-sm-4 pe-lg-0">
             <img class="img-fluid" src="./images/illustration-your-users.svg" alt="illustration your users">
           </div>
         </div> <!-- /end image -->
 
-        <div class="col col-sm-8 col-md-6 col-lg-5 order-3 order-md-2 pe-xxl-0 text-md-start"> <!-- info -->
+        <div class="col z-1 col-sm-8 col-md-6 col-lg-5 order-3 order-md-2 pe-xxl-0 text-md-start"> <!-- info -->
           <div class="px-4 pt-4 pb-3 pe-md-0 ps-md-5 ps-lg-0">
             <h2 class="h5 fw-bold fs-md-3 fs-xl-2 fs-xxl-2">
               Your Users
@@ -233,7 +233,7 @@
           <!-- footer background top -->
         </div>
 
-        <div class="col-10 col-sm-7 col-md-4 col-xxl-3 order-3 order-md-2 text-light
+        <div class="col-10 z-1 col-sm-7 col-md-4 col-xxl-3 order-3 order-md-2 text-light
                     py-5 pt-md-0 mt-md-3 px-0"> <!-- info <1/3> -->
           <h1> <!-- logo -->
             <img class="pe-4 w-md-200px" width="225px" src="./images/logo-white.svg" alt="">
@@ -297,7 +297,7 @@
           </div> <!-- /end list -->
         </div> <!-- /end info <1/3> -->
 
-        <div class="col-10 col-sm-7 col-md-4 col-xxl-5 order-2 order-md-3 offset-md-2 offset-xxl-0
+        <div class="col-10 z-1 col-sm-7 col-md-4 col-xxl-5 order-2 order-md-3 offset-md-2 offset-xxl-0
                     ps-xxl-5 text-light p-0 pe-xl-5 pe-xxl-0 my-5 mt-sm-0 mt-md-3"> <!-- info <2/3> -->
           <h4 class="font-family-poppins fw-semibold text-uppercase">Newsletter</h4>
           <p class="fs-7 mt-3 pe-xxl-6">
@@ -305,10 +305,10 @@
             send you spam or pass on your email address
           </p>
 
-          <form class="d-xxl-flex align-items-center justify-content-between needs-validation" novalidate>
+          <form class="d-xxl-flex align-items-center justify-content-between needs-validation" id="emailContent" action="#" novalidate>
             <!-- inputs -->
             <div class="w-100 me-xl-5 position-relative">
-              <input class="form-control py-2 lh-lg py-xxl-2 lh-xxl-lg me-xl-5" type="email" placeholder="john@mail.com"
+              <input class="form-control py-2 lh-lg py-xxl-2 lh-xxl-lg me-xl-5" type="email" name="email" autocomplete="on" placeholder="john@mail.com"
                 pattern=".+@mail\.com" required>
               <div class="invalid-feedback position-xxl-absolute">
                 Check your email please
