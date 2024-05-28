@@ -16,3 +16,15 @@
         }, false)
     })
 })()
+
+function showExemple() {
+    const inputEmail = document.querySelector("#email");
+
+    inputEmail.placeholder = "john@mail.com";
+}
+
+function hiddenExemple() {
+    const inputEmail = document.querySelector("#email");
+
+    inputEmail.placeholder = "";
+}

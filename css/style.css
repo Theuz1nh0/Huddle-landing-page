@@ -260,6 +260,10 @@ body {
     fill: aqua;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /* medias */
 @media (min-width: 576px) {
     .fs-sm-9 {

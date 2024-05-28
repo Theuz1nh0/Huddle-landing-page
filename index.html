@@ -308,8 +308,8 @@
           <form class="d-xxl-flex align-items-center justify-content-between needs-validation" id="emailContent" action="#" novalidate>
             <!-- inputs -->
             <div class="w-100 me-xl-5 position-relative">
-              <input class="form-control py-2 lh-lg py-xxl-2 lh-xxl-lg me-xl-5" type="email" name="email" autocomplete="on" placeholder="john@mail.com"
-                pattern=".+@mail\.com" required>
+              <input class="form-control py-2 lh-lg py-xxl-2 lh-xxl-lg me-xl-5 cursor-pointer" type="email" id="email" name="email" autocomplete="on"
+                pattern=".+@mail\.com" onfocus="showExemple()" onfocusout="hiddenExemple()" required>
               <div class="invalid-feedback position-xxl-absolute">
                 Check your email please
               </div>
